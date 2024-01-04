@@ -16,6 +16,7 @@ FIFO.
 - buf_in (8-bit data input): it is the data input to be written into the memory.
 - wr_en (active high input): signal to write data into FIFO.
 - rd_en (active high input): signal to read data from FIFO.
+
 ***Output**
 - buf_out (8-bit output): it is the data output read from the FIFO.
 - buf_empty (active high output):indicating that FIFO is empty.
